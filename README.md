@@ -4,7 +4,7 @@ DuckRails is a development tool.
 
 Its main purpose is to allow developers to quickly mock API endpoints that for many possible reasons they can't reach at a specific time.
 
-> If it looks like a duck, walks like a duck and quacks like a duck, then it's a duck
+> If it looks like a duck, walks like a duck and quacks like a duck, then it's a duck :duck:
 
 ![Home Page](https://github.com/iridakos/duckrails/blob/master/documentation/readme/resources/duckrails-home-page.png?raw=true)
 
