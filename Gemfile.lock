@@ -139,7 +139,7 @@ GEM
     netrc (0.11.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    pg (1.0.0)
+    pg (0.21.0)
     public_suffix (3.0.0)
     puma (3.10.0)
     rack (1.6.8)
@@ -258,8 +258,8 @@ DEPENDENCIES
   jquery-rails
   kaminari
   libxml-ruby
-  mysql2
-  pg
+  mysql2 (~> 0.4.4)
+  pg (~> 0.18)
   puma
   rails (= 4.2.8)
   rest-client
