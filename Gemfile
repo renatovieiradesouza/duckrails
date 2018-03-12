@@ -12,8 +12,6 @@ gem 'kaminari'
 gem 'rest-client'
 gem 'libxml-ruby'
 gem 'sqlite3'
-gem "pg", "~> 0.18" # https://github.com/rails/rails/issues/31673
-gem "mysql2", "~> 0.4.4"
 gem 'puma'
 
 group :development, :test do
