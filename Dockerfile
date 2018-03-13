@@ -1,4 +1,4 @@
-FROM ruby:2.4
+FROM ruby:2.4-stretch
 LABEL maintainer="Lazarus Lazaridis http://iridakos.com"
 
 # Change to repo directory
