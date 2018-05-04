@@ -32,8 +32,8 @@ The repository's [wiki pages](https://github.com/iridakos/duckrails/wiki) contai
 * [Creating mocks](https://github.com/iridakos/duckrails/wiki/Creating-mocks)
   * [Route paths with variables](https://github.com/iridakos/duckrails/wiki/Route-paths-with-variables)
   * [Static mock](https://github.com/iridakos/duckrails/wiki/Creating-a-simple-static-mock)
-  * [Dynamic mock with embedded ruby](https://github.com/iridakos/duckrails/wiki/Creating-a-dynamic-mock-with-embedded-ruby)
-  * [Dynamic mock with javascript](https://github.com/iridakos/duckrails/wiki/Creating-a-dynamic-mock-with-Javascript)
+  * [Dynamic mock with embedded Ruby](https://github.com/iridakos/duckrails/wiki/Creating-a-dynamic-mock-with-embedded-ruby)
+  * [Dynamic mock with JavaScript](https://github.com/iridakos/duckrails/wiki/Creating-a-dynamic-mock-with-Javascript)
   * [Mock wrapping an existing API call](https://github.com/iridakos/duckrails/wiki/Creating-a-dynamic-mock-that-wraps-an-existing-API-call)
   * [Advanced mock (WIP)](https://github.com/iridakos/duckrails/wiki/Creating-an-advanced-mock)
 
@@ -76,20 +76,20 @@ You can define static or dynamic responses for a mock.
 
 Currently supported dynamic types are:
 
-- Embedded ruby
-- Javascript
+- Embedded Ruby
+- JavaScript
 
-### Embedded ruby
+### Embedded Ruby
 
-When specifying dynamic content of embedded ruby (more options to be added), you can read as local variables:
+When specifying dynamic content of embedded Ruby (more options to be added), you can read as local variables:
 
 - `@parameters`: The parameters of the request
 - `@request`: The request
 - `@response`: The response
 
-### Javascript
+### JavaScript
 
-When specifying dynamic content of javascript type, you can read as local variables:
+When specifying dynamic content of JavaScript type, you can read as local variables:
 
 - `parameters`: The parameters of the request
 - `headers`: The request headers
