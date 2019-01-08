@@ -12,6 +12,8 @@ gem 'kaminari'
 gem 'rest-client'
 gem 'libxml-ruby'
 gem 'sqlite3'
+gem 'pg', '~> 0.15'
+gem 'mysql2'
 gem 'puma'
 
 group :development, :test do
