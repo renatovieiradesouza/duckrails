@@ -13,7 +13,7 @@ EXPOSE 80
 
 # Add Required Packages
 RUN apt-get update \
-	  && apt-get install -y --no-install-recommends nodejs \
+	  && apt-get install -y --no-install-recommends nodejs libpq-dev libxml2-dev default-libmysqlclient-dev libsqlite3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Add docker entrypoint.sh
@@ -31,10 +31,6 @@ COPY . .
 # Configure database & install gems
 COPY config/database.yml.sample config/database.yml
 
-# Create database for bundled sqlite
-RUN bundle exec rake db:create
-# Run database migrations for bundled sqlite
-RUN bundle exec rake db:migrate
 # Compile the assets
 RUN bundle exec rake assets:precompile
 
